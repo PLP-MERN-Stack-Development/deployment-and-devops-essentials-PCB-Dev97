@@ -1,0 +1,17 @@
+mern-app/
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── .env.example
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── .env.example
+│   └── monitoring/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── render.yaml
+├── vercel.json
+└── README.md

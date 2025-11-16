@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: mern-backend
+    env: node
+    build:
+      command: npm install
+      start: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        fromDatabase:
+          name: mern-db
+          property: connectionString
